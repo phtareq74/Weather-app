@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.body{
+    
+  width:1300px;
+    margin: auto;
+   background-color:;
+    font-family: sans-serif;
+}
+h1{
+    color: #a36032;
+    font-family: cursive;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mainimage{
+    position: relative;
+   height: 50%; 
+}
+.mainimage img{
+    width: 100%;
+    height: 400px
+}
+.heading{
+    position: absolute;
+    color: #df8e2e;
+    top: 10%;
+    left: 30%;
+    text-align: center;
+    font-size: 62px;
+}
+.input{
+   width: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 50px;
+}
+.weatherinfo{
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+    height: 40%;
+}
+.thumbnail img{
+  width: 75px
+    
+}
+.thumbnail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    height: 100px;
+}
+#city{
+    width: 70%;
+    border-radius: 20px;
+    padding: 5px;
+}
+#dataContainer{
+    width:75%;
+    height: 25%px;
+    position: absolute;
+    top:20px;
+    left:250px;
+    right: 250px;
+    background-color: #a1e9ba;
+    opacity: 0.9;
+    display: none;
+    display: flex;
+    
+}
+#btn{
+    border-radius: 25px;
+    background-color: lightblue;
+     padding: 5px;
+    color: orangered;
+    
+}
+
+#closeButton {
+    background-color: #a1e9ba;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+#closeButton:hover{
+     background-color: #17a2b8;
+}
+.dataHeading{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5PX;
+    height: 100px
+}
+.daysbtn{
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #92ceba;
+        color: #a36032;
+    font-family: cursive;
+    margin-bottom: 5px;
+}
+.table tr td{
+    width:12.5%;
+    height: 20px;
+}
+.dataBottom{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#detailContainer{
+   width:30%;
+    height: 25%px;
+    position: absolute;
+    top:220px;
+    left:250px;
+    right: 300px;
+    background-color: #f8f9fa;
+    
+    display: none;
+    display: flex;  
+}
